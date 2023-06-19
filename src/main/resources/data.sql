@@ -1,3 +1,8 @@
+insert into user_account (user_id, user_password, nickname, email, memo, created_at, created_by, modified_at, modified_by) values
+    ('uno', 'asdf1234', 'Uno', 'uno@mail.com', 'I am Uno.', now(), 'uno', now(), 'uno')
+;
+
+
 -- 123 게시글
 insert into article (title, content, hashtag, created_by, modified_by, created_at, modified_at) values ('Proin interdum mauris non ligula pellentesque ultrices.', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 'Aquamarine', 'Lillis', 'Durant', '2022-06-30 08:47:17', '2022-05-24 15:02:46');
 insert into article (title, content, hashtag, created_by, modified_by, created_at, modified_at) values ('Cras in purus eu magna vulputate luctus.', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 'Pink', 'Jessee', 'Alvis', '2023-03-12 09:08:28', '2023-01-19 15:47:25');
